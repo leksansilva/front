@@ -1,0 +1,16 @@
+.main-footer {
+  display: flex;
+  align-items: center;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgb(47, 79, 79) 0%,
+    rgba(47, 79, 79, 1) 100%
+  );
+  justify-content: flex-end;
+  padding-top: 3em;
+  position: relative;
+  top: 1500px;
+  bottom: 0;
+  width: 100%;
+}
