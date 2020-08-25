@@ -7,5 +7,6 @@ export default (props) => (
       <i className={"fa fa${props.icon}"}></i>
       {props.title}
     </h1>
+    <button type="button" class="btn btn-primary">Primary</button>
   </header>
 );

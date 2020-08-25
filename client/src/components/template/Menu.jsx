@@ -6,6 +6,7 @@ function Menu() {
     <div className>
       <Navbar />
     </div>
+    
   );
 }
 

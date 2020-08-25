@@ -49,10 +49,11 @@ const Home = (props) => (
     <center><h1>Filmes em Cartaz</h1></center>
     <hr />
     <hr />
-    
     <Programacao />
     <hr />
   </Main>
+  
+
 );
 
 export default Home;
