@@ -7,11 +7,18 @@ import "./Filmes.css";
 
 export default (props) => (
   <Main icon="home" title="TopsterCine">
+    
+    <hr />
+    <hr />
+    <center><h1>Filmes em Cartaz</h1></center>
+    <hr />
+    <hr />
     <Card2 />
-    <div className="mb-0">
-      <h2>Em breve</h2>
-    </div>
-
+      <hr />
+    <hr />
+    <center><h1>Filmes em Breve</h1></center>
+    <hr />
+    <hr />
     <Card3 />
     <hr />
   </Main>

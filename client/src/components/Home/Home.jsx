@@ -8,6 +8,7 @@ import img3 from "../../assets/img/bem.png";
 
 const Home = (props) => (
   <Main icon="home" title="TopsterCine">
+    
     <div
       id="carouselExampleControls"
       className="carousel slide"
@@ -45,6 +46,10 @@ const Home = (props) => (
     </div>
     <hr />
     <hr />
+    <center><h1>Filmes em Cartaz</h1></center>
+    <hr />
+    <hr />
+    
     <Programacao />
     <hr />
   </Main>
