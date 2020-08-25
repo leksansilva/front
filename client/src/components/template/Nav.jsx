@@ -30,23 +30,6 @@ class Navbar extends Component {
               );
             })}
           </ul>
-          <input type="checkbox" id="check"></input>
-          <label for="check">
-            <i id="btn" class="btn btn-sucess">Login</i>
-            <i  id="cancel" class="btn btn-primary">cancelar</i>
-          </label>
-          <label>
-            <div id="login_form">
-              <h1>Login</h1>
-              <ul id="login_list">
-                <li><input class="txt" type="text" placeholder="Usuário"></input></li>
-                <li><input class="txt" type="password" placeholder="Senha"></input></li>
-                <li><input class="button" type="button" value="Login"/></li>
-                <a href="#">Registre-se</a><br></br>
-                <a href="#">Esqueci a Senha</a>
-              </ul>
-            </div>
-          </label>
         </nav>
         
     );
