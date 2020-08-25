@@ -11,7 +11,7 @@ export const MenuItems = [
   },
   {
     title: "Cadastre-se",
-    url: "#",
+    url: "#/users",
     cName: "nav-links",
   },
   {
