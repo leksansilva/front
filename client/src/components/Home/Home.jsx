@@ -2,7 +2,7 @@ import React from "react";
 import Main from "../template/Main";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Programacao from "../Programacao/Card";
-import img1 from "../../assets/img/2.png";
+import img1 from "../../assets/img/11.png";
 import img2 from "../../assets/img/3.png";
 import img3 from "../../assets/img/bem.png";
 

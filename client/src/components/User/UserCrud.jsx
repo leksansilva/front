@@ -30,12 +30,23 @@ export default function UserCrud() {
       <label for="inputPassword4">CPF</label>
       <input type="password" className="form-control" id="inputPassword4" placeholder="CPF"></input>
     </div>
+
+    <div className="form-group col-md-6">
+      <label for="inputEmail4">Senha</label>
+      <input type="email" className="form-control" id="inputEmail4" placeholder="Senha"></input>
+    </div>
+    <div className="form-group col-md-6">
+      <label for="inputPassword4">Confirme a senha</label>
+      <input type="password" className="form-control" id="inputPassword4" placeholder="confirme a senha"></input>
+    </div>
   </div>
   
   
   
-  <button type="submit" className="btn btn-primary">Cadastre-se</button>
+  <button type="button" className="btn btn-warning">Cadastre-se</button>
+  
 </form>
+
       </Main>
     );
   }
