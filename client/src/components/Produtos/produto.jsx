@@ -6,8 +6,7 @@ const headerProps = {};
 
 export default (props) => (
   <Main icon="home" title="TopsterCine" {...headerProps}>
-    <h2>Cardapio</h2>
+    <h2>Cardapio cuzcuz com ovo</h2>
     <Produto_card />
-    
   </Main>
 );
