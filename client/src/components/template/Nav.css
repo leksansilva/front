@@ -38,6 +38,7 @@
 .nav-links:hover {
   background-color: #fff;
   border-radius: 4px;
+  text-decoration: none;
   transition: all 0.2 ease-out;
 }
 .fa-bars {
@@ -73,6 +74,7 @@
   }
   .nav-links:hover {
     background-color: #F7C322;
+    text-decoration: none;
     border-radius: 0;
   }
   .navbar-logo {
