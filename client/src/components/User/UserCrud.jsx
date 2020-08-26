@@ -8,8 +8,8 @@ export default class UserCrud extends Component{
   render(){
     return (
       <Main icon="users" title="Cadastro" {...headerProps}>
-      <form>
-    
+      <fom>
+  
      <div className="form-group">
        <label for="inputAddress">Nome completo</label>
        <input type="text" class="form-control" id="inputAddress" placeholder="Nome completo"></input>

@@ -14,7 +14,7 @@ export default () => {
             name="senha"
             placeholder="Digite a sua senha"
           />
-          <button type="submit">Login</button>
+          <button type="button" class="btn btn-primary btn-sm">Login</button>
           
         </form>
       </Main>
