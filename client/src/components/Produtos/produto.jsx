@@ -8,5 +8,6 @@ export default (props) => (
   <Main icon="home" title="TopsterCine" {...headerProps}>
     <h2>Cardapio</h2>
     <Produto_card />
+    
   </Main>
 );
