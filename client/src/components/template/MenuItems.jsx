@@ -22,7 +22,8 @@ export const MenuItems = [
   {
     title: "Login",
     url: "#/Login",
-    cName: "nav-links",
+    cName: "fas fa-user",
+    
   },
 
  

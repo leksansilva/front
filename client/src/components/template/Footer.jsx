@@ -9,17 +9,21 @@ function Rodape(props) {
           <div className="col-md-3 col-sm-6">
             <h4>Contato</h4>
             <ul className="list-unstyled">
-              <li>(75)3421-0000</li>
-              <li>TopsterCine@gmail.com</li>
+              <li class="fab fa-whatsapp">  (75)3421-0000</li>
+              <li>
+                <i class="fas fa-envelope">  TopsterCine@gmail.com</i>
+              </li>
             </ul>
           </div>
           <div className="col-md-3 col-sm-6">
             <h4>Rede Social</h4>
             <ul className="list-unstyled">
-              <li class="fab fa-facebook" >Facebook </li>
-              <li class="fab fa-twitter-square">Twitter</li>
+              <li class="fab fa-facebook-f">   Facebook </li>
+              <li> 
+              <i class="fab fa-twitter">  twitter</i>
+             </li>
               <li>
-                <i class="fab fa-instagram">Instagram</i>
+                <i class="fab fa-instagram">  Instagram</i>
               </li>
             </ul>
           </div>

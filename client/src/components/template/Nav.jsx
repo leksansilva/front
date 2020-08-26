@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { MenuItems } from "./MenuItems";
+import img1 from "../../assets/img/logocerto.png";
 import { Button } from "./Button";
 import "./Nav.css";
 
@@ -12,7 +13,7 @@ class Navbar extends Component {
     return (
         <nav className="NavbarItems">
           <h1 className="navbar-logo">
-            TopsterCine<i className="fab fa-react"></i>
+           <img src={img1} href="/#/"/>
           </h1>
           <div className="menu-icon" onClick={this.handlenClick}>
             <i
