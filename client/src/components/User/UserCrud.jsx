@@ -43,7 +43,7 @@ export default function UserCrud() {
   
   
   
-  <button type="button" className="btn btn-warning">Cadastre-se</button>
+  <button type="button" class="btn btn-primary">Cadastre-se</button>
   
 </form>
 
