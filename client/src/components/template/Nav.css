@@ -11,7 +11,7 @@
   font-size: 1.2rem;
 }
 .navbar-logo {
-  color: #F7C322;
+  color: #fff;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -36,7 +36,7 @@
   padding: 0.5rem 1rem;
 }
 .nav-links:hover {
-  background-color: #F7C322;
+  background-color: #fff;
   border-radius: 4px;
   transition: all 0.2 ease-out;
 }
