@@ -50,7 +50,12 @@ const Home = (props) => (
     <hr />
     <hr />
     <Programacao />
+    
+    <hr/>
+    <center><button type="button" class="btn btn-primary">Ver todos</button></center>
     <hr />
+    
+    
   </Main>
   
 
