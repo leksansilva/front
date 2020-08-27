@@ -3,8 +3,8 @@ import Main from "../template/Main";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Programacao from "../Programacao/Card";
 import img1 from "../../assets/img/img1.svg";
-import img2 from "../../assets/img/3.png";
-import img3 from "../../assets/img/bem.png";
+import img2 from "../../assets/img/drive.svg";
+import img3 from "../../assets/img/2.png";
 
 const Home = (props) => (
   <Main icon="home" title="TopsterCine">
@@ -51,7 +51,12 @@ const Home = (props) => (
     <hr />
     <hr />
     <Programacao />
+    
+    <hr/>
+    <center><button type="button" class="btn btn-primary">Ver todos</button></center>
     <hr />
+    
+    
   </Main>
 );
 
