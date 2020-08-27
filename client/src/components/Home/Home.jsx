@@ -2,9 +2,9 @@ import React from "react";
 import Main from "../template/Main";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Programacao from "../Programacao/Card";
-import img1 from "../../assets/img/img1.svg";
-import img2 from "../../assets/img/drive.svg";
-import img3 from "../../assets/img/2.png";
+import img1 from "../../assets/img/pro1.svg";
+import img2 from "../../assets/img/pro2.svg";
+import img3 from "../../assets/img/pro3.svg";
 
 const Home = (props) => (
   <Main icon="home" title="TopsterCine">
