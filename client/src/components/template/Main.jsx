@@ -1,5 +1,6 @@
 import React from "react";
 
+/* maqui contem a estruturação do menu*/
 export default (props) => (
   <React.Fragment>
     <main className="content container-fluid">

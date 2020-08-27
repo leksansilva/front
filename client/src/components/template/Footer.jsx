@@ -1,5 +1,7 @@
 import React from "react";
 import "./Footer.css";
+
+/* aqui tem todo o rodapé*/
 function Rodape(props) {
   return (
     <div className="main-footer">
