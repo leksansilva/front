@@ -1,18 +1,30 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router";
+import Home from "../Home/Home";
+import UserCrud from "../User/UserCrud";
+import Login from "../Login/login";
+import Produtos from "../Produtos/produto";
+import Filmes from "../Programacao/Filmes";
 
-import Home from "../Home/Home"; /*rota que leva para o inicio ou home do site */
-import UserCrud from "../User/UserCrud"; /* rota para tela de cadastro */
-import Login from "../Login/login"; /* rota para tela de login */
-import Produtos from "../Produtos/produto"; /* rota para tela de produtos ou cardapio */
-import Filmes from "../Programacao/Filmes"; /* rota para tela de cartalogos de filmes */
+/* importações de rotas*/
+import Home from "../Home/Home";
+import UserCrud from "../User/UserCrud";
+import Login from "../Login/login";
+import Produtos from "../Produtos/produto";
+import Filmes from "../Programacao/Filmes";
 
 export default (props) => (
   <Switch>
+    {/* classe para chamar as paginas*/}
+    {/* rota do inicio ou home */}
     <Route exact path="/" component={Home} />
+    {/* rota do cadastro */}
     <Route exact path="/users" component={UserCrud} />
+    {/* rota do login*/}
     <Route exact path="/Login" component={Login} />
+    {/* rota do produtos */}
     <Route exact path="/Produtos" component={Produtos} />
+    {/* rota da tela de filmes */}
     <Route exact path="/Filmes" component={Filmes} />
     <Redirect from="*" to="/" />
   </Switch>
