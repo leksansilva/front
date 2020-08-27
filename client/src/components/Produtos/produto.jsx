@@ -1,12 +1,17 @@
 import React from "react";
 import Main from "../template/Main";
-import Produto_card from "../Produtos/produto_card";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Produto_card from "./Cards";
 const headerProps = {};
 
 export default (props) => (
   <Main icon="home" title="TopsterCine" {...headerProps}>
-    <h2>Cardapio cuzcuz com ovo</h2>
+    <hr />
+    <hr />
+    <center>
+      <h1>Cardapio</h1>
+    </center>
+    <hr />
     <Produto_card />
   </Main>
 );
