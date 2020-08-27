@@ -15,6 +15,10 @@ const Filmes = (props) => {
         >
           trailer
         </a>
+
+        <a href="#" class="fas fa-ticket-alt" class="btn btn-outline-success">
+          Ingresso
+        </a>
       </div>
     </div>
   );

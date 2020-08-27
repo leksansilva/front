@@ -11,19 +11,22 @@ class Card extends Component {
           <div className="col-md-4">
             <Programacao
               imgsrc={img1}
-              text="aqui vai ficar a sinopse da menina que roubava livro"
+              text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi est reprehenderit beatae autem harum corrupti quibusdam mollitia consectetur, dolore iure.
+"
             />
           </div>
           <div className="col-md-4">
             <Programacao
               imgsrc={img2}
-              text="aqui vai ficar a sinopse de Jogos Vorazes"
+              text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi est reprehenderit beatae autem harum corrupti quibusdam mollitia consectetur, dolore iure.
+              "
             />
           </div>
           <div className="col-md-4">
             <Programacao
               imgsrc={img3}
-              text="aqui vai ficar a sinopse de Avatar"
+              text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi est reprehenderit beatae autem harum corrupti quibusdam mollitia consectetur, dolore iure.
+              "
             />
           </div>
         </div>

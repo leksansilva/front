@@ -14,13 +14,25 @@ class Card3 extends Component {
       <div className="container-fluid d-flex justify-content-center">
         <div className="row">
           <div className="col-md-4">
-            <Filmes2 imgsrc={img4} text="ele morre" />
+            <Filmes2
+              imgsrc={img4}
+              text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi est reprehenderit beatae autem harum corrupti quibusdam mollitia consectetur, dolore iure.
+"
+            />
           </div>
           <div className="col-md-4">
-            <Filmes2 imgsrc={img5} text="é um drama?" />
+            <Filmes2
+              imgsrc={img5}
+              text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi est reprehenderit beatae autem harum corrupti quibusdam mollitia consectetur, dolore iure.
+"
+            />
           </div>
           <div className="col-md-4">
-            <Filmes2 imgsrc={img6} text="Filme de pré adolescente chato" />
+            <Filmes2
+              imgsrc={img6}
+              text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi est reprehenderit beatae autem harum corrupti quibusdam mollitia consectetur, dolore iure.
+"
+            />
           </div>
         </div>
       </div>

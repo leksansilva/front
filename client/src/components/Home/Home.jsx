@@ -8,7 +8,6 @@ import img3 from "../../assets/img/pro3.svg";
 
 const Home = (props) => (
   <Main icon="home" title="TopsterCine">
-    
     <div
       id="carouselExampleControls"
       className="carousel slide"
@@ -46,7 +45,9 @@ const Home = (props) => (
     </div>
     <hr />
     <hr />
-    <center><h1>Filmes em Cartaz</h1></center>
+    <center>
+      <h1>Filmes em Cartaz</h1>
+    </center>
     <hr />
     <hr />
     <Programacao />
@@ -57,8 +58,6 @@ const Home = (props) => (
     
     
   </Main>
-  
-
 );
 
 export default Home;
