@@ -4,6 +4,8 @@ import img1 from "../../assets/img/logocerto.png";
 import { Button } from "./Button";
 import "./Nav.css";
 
+/* aqui tem a estruturação do menu (navbar)*/
+
 class Navbar extends Component {
   state = { clicked: false };
   handlenClick = () => {

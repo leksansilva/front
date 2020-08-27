@@ -1,3 +1,4 @@
+/* aqui tem os nome das paginas do menu e rotas*/
 export const MenuItems = [
   {
     title: "Programaçao",
