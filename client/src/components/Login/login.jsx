@@ -14,14 +14,13 @@ export default () => {
             name="senha"
             placeholder="Digite a sua senha"
           />
-          <button type="button" class="btn btn-primary btn-sm">Login</button>
-          
+          <button type="button" class="btn btn-primary btn-sm">
+            Login
+          </button>
+          <br />
+          <a href="#">esqueci a senha</a>
         </form>
       </Main>
-
-      
     </div>
-
-
   );
 };

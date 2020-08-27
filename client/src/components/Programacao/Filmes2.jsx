@@ -9,12 +9,7 @@ const Filmes = (props) => {
       <div className="card-body text-dark">
         <h4 className="card-title">Sinopse</h4>
         <p className="card-text text-secondary">{props.text}</p>
-        <a
-          href="https://www.youtube.com/watch?v=J24AlOYHpVU"
-          className="btn btn-outline-success"
-        >
-          trailer
-        </a>
+        <a className="btn btn-outline-success">trailer</a>
 
         <a href="#" class="fas fa-ticket-alt" class="btn btn-outline-success">
           Ingresso
