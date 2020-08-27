@@ -18,7 +18,7 @@ export default () => {
             Login
           </button>
           <br />
-          <a href="#">esqueci a senha</a>
+          <a href="#/esqueci_senha">esqueci a senha</a>
         </form>
       </Main>
     </div>
